@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2020 Vitaliy Viznyuk
  */
 
-namespace vitaliyviznyuk\Laravel\Chromedriver;
+namespace vitaliyviznyuk\LaravelChromedriver;
 
 use Exception;
 use Illuminate\Support\ServiceProvider;

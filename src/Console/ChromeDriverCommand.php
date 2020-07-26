@@ -4,9 +4,9 @@
  * @copyright Copyright (c) 2020 Vitaliy Viznyuk
  */
 
-namespace vitaliyviznyuk\Laravel\Chromedriver\Console;
+namespace vitaliyviznyuk\LaravelChromedriver\Console;
 
-use vitaliyviznyuk\Laravel\Chromedriver\OperatingSystem;
+use vitaliyviznyuk\LaravelChromedriver\OperatingSystem;
 use Illuminate\Console\Command;
 use ZipArchive;
 

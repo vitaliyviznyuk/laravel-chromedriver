@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2020 Vitaliy Viznyuk
  */
 
-namespace vitaliyviznyuk\Laravel\Chromedriver\Console;
+namespace vitaliyviznyuk\LaravelChromedriver\Console;
 
 use Illuminate\Console\Command;
 

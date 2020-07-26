@@ -18,13 +18,13 @@
   },
   "autoload": {
     "psr-4": {
-      "vitaliyviznyuk\\Laravel\\": "src/"
+      "vitaliyviznyuk\\LaravelChromedriver\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "vitaliyviznyuk\\Laravel\\Chromedriver\\ChromedriverServiceProvider"
+        "vitaliyviznyuk\\LaravelChromedriver\\ChromedriverServiceProvider"
       ]
     }
   },
