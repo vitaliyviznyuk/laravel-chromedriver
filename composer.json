@@ -1,0 +1,33 @@
+{
+  "name": "vitaliyviznyuk/laravel-chromedriver",
+  "description": "Laravel Chromedriver provides an expressive, easy-to-use browser automation.",
+  "keywords": ["laravel", "chromedriver", "webdriver", "browser"],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Vitaliy Viznyuk",
+      "email": "vitaliyviznyuk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "vitaliyviznyuk\\Laravel\\Chromedriver\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "vitaliyviznyuk\\Laravel\\Chromedriver\\ChromedriverServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
