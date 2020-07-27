@@ -15,7 +15,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected string $signature = 'chromedriver:install
+    protected $signature = 'chromedriver:install
                 {--proxy= : The proxy to download the binary through (example: "tcp://127.0.0.1:9000")}
                 {--ssl-no-verify : Bypass SSL certificate verification when installing through a proxy}';
 
@@ -24,7 +24,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected string $description = 'Install Laravel Chromedriver into the application';
+    protected $description = 'Install Laravel Chromedriver into the application';
 
     /**
      * Execute the console command.

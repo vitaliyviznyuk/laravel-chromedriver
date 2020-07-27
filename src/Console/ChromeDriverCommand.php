@@ -17,7 +17,7 @@ class ChromeDriverCommand extends Command
      *
      * @var string
      */
-    protected string $signature = 'chromedriver:chrome-driver {version?}
+    protected $signature = 'chromedriver:chrome-driver {version?}
                     {--all : Install a ChromeDriver binary for every OS}
                     {--proxy= : The proxy to download the binary through (example: "tcp://127.0.0.1:9000")}
                     {--ssl-no-verify : Bypass SSL certificate verification when installing through a proxy}';
@@ -27,7 +27,7 @@ class ChromeDriverCommand extends Command
      *
      * @var string
      */
-    protected string $description = 'Install the ChromeDriver binary';
+    protected $description = 'Install the ChromeDriver binary';
 
     /**
      * URL to the latest stable release version.

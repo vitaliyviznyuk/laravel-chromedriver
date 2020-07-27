@@ -31,7 +31,8 @@ class ChromedriverServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                Console\InstallCommand::class
+                Console\InstallCommand::class,
+                Console\ChromeDriverCommand::class
             ]);
         }
     }
